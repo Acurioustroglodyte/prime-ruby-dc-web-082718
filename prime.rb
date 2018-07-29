@@ -6,7 +6,7 @@ def prime?(int)
   elsif int > 1
     counter = int - 1
     while counter > 1
-      binding.pry
+      # binding.pry
       if int % counter == 0
         return true
       end
